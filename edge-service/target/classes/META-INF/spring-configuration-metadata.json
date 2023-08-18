@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "tenant.security",
+      "type": "tech.hidetora.edgeservice.multitenancy.TenantSecurityProperties",
+      "sourceType": "tech.hidetora.edgeservice.multitenancy.TenantSecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tenant.security.client-id",
+      "type": "java.lang.String",
+      "sourceType": "tech.hidetora.edgeservice.multitenancy.TenantSecurityProperties"
+    },
+    {
+      "name": "tenant.security.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "tech.hidetora.edgeservice.multitenancy.TenantSecurityProperties"
+    },
+    {
+      "name": "tenant.security.issuer-base-uri",
+      "type": "java.net.URI",
+      "sourceType": "tech.hidetora.edgeservice.multitenancy.TenantSecurityProperties"
+    }
+  ],
+  "hints": []
+}
